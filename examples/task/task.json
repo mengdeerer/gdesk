@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "task_id": "resnet50-lr-0001",
+  "name": "ResNet50 学习率对比",
+  "project": "image-classification",
+  "description": "比较较小学习率是否改善验证集精度",
+  "kind": "train",
+  "tags": ["ablation", "lr-sweep"],
+  "parameters": {
+    "model": "resnet50",
+    "dataset": "imagenet",
+    "learning_rate": 0.0001,
+    "batch_size": 256,
+    "precision": "bf16"
+  },
+  "artifacts": [{"role": "config", "path": "/work/runs/resnet50-lr-0001/config.yaml"}],
+  "display": {"summary_fields": ["parameters.model", "parameters.dataset", "parameters.learning_rate"]}
+}

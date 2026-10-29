@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task_id": "resnet50-lr-0001",
+  "attempt_id": "example-attempt-not-a-real-process",
+  "state": "running",
+  "stage": "train",
+  "message": "正在训练第 32 个 epoch",
+  "processes": [],
+  "progress": {"completed": 32, "total": 100, "unit": "epochs", "scope": "stage", "updated_at": "2026-10-29T07:10:00Z"},
+  "metrics": {"loss": 1.82, "throughput": {"value": 186, "unit": "samples/s"}},
+  "artifacts": [{"role": "log", "path": "/work/runs/resnet50-lr-0001/train.log"}],
+  "started_at": "2026-10-29T04:00:00Z",
+  "updated_at": "2026-10-29T07:10:00Z"
+}

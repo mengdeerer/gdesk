@@ -1,0 +1,8 @@
+{
+  "interval_seconds": 5,
+  "timeout_seconds": 12,
+  "hosts": [
+    {"id": "atlas-gpu", "ssh": "atlas-gpu", "task_dirs": []},
+    {"id": "orion-gpu", "ssh": "orion-gpu", "task_dirs": []}
+  ]
+}

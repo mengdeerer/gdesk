@@ -1,0 +1,4 @@
+interface:
+  display_name: "G-Desk 接入"
+  short_description: "为训练与评测接入可靠进度、心跳和进程绑定，上报故障不打断业务"
+  default_prompt: "使用 $gpu-desk-integration 为当前训练或评测代码接入 G-Desk，准确上报进度并隔离遥测故障。"
